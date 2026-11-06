@@ -1,0 +1,14 @@
+# ---- Backend (FastAPI) - this file is what VERCEL installs ----
+fastapi>=0.109.0
+pydantic[email]>=2.6.0        # [email] installs email-validator (needed by EmailStr)
+python-multipart>=0.0.9       # file upload (OCR endpoint)
+SQLAlchemy>=2.0.25
+psycopg2-binary>=2.9.9        # PostgreSQL (Neon / Supabase / Vercel Postgres)
+PyMySQL>=1.1.0                # optional MySQL
+python-jose[cryptography]>=3.3.0
+scikit-learn>=1.4.0
+numpy>=1.26.0
+pillow>=10.2.0
+reportlab>=4.0.9
+requests>=2.31.0
+python-dotenv>=1.0.1

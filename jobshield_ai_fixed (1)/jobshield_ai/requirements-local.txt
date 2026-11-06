@@ -1,0 +1,6 @@
+# Local development: backend + Streamlit frontend
+-r requirements.txt
+uvicorn>=0.27.0
+streamlit>=1.31.0
+plotly>=5.18.0
+# Optional OCR (large download, needs Python <=3.12): easyocr
